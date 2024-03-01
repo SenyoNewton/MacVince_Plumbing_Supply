@@ -1,0 +1,150 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.main{
+    background-color: rgb(45, 65, 139);
+    justify-content: space-around ;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height:15vh;
+    width:100%;
+
+
+   
+}
+
+.menu{
+    height: 80vh;
+    background-color: rgba(184, 240, 243, 0.82); 
+}
+.footer{
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 10vh;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    width: 50%;
+    height: 45vh;
+    background-color: blue;
+    flex-direction: column;
+
+}
+.row{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: #edeef0;
+border-radius: 30px;
+
+}
+.button{
+    border: none;
+    outline:none;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search{
+        flex:1;
+        border: none;
+        outline:none;
+        background:transparent;
+        padding: 10px;
+        font-weight:14px;
+        border-radius: 40px;
+}
+.signin-button{
+    display: flex;
+    border:none;
+    outline: none;
+    background: #ff5945;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+.retuns-orders{
+    border:none;
+    outline: none;
+    background: #ff5945;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 10px;
+}
+.home-page{
+    background-color: rgb(87, 199, 173) ;
+}
+.my-button-image {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 50vh;
+    margin-left: 2%;
+  }
+  
+  .my-button-image img {
+    vertical-align: middle;
+    height: 25vh;
+    width: 50%;
+    background: transparent;
+    margin-top: 50px;
+  }
+
+    .shop_button{
+    width: 30%;
+    margin-left: 2%;
+    height: 50px;
+    background-color: #ff5945;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    }
+    .top_banner{
+        background-color: aqua;
+        padding-top: 20px;
+        width: 100%;
+        height: 30vh;
+        text-align: center;
+    }
+    
+
+    .footer_button
+    {
+        color: transparent;
+        border: none;
+    }
+
+    .help
+    {
+        background-color: transparent;
+        border-style: none;
+    }
